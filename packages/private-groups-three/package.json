@@ -1,5 +1,5 @@
 {
-  "name": "private-groups-three",
+  "name": "@depfutest/ppg-three",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -9,5 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "publishConfig": {
+    "@depfutest:registry": "https://npm.pkg.github.com"
+  }
 }
